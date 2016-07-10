@@ -1,6 +1,5 @@
 package io.github.brianboyko.calcengine;
 
-import static java.lang.Math.floor;
 import static java.lang.Math.random;
 
 public class Main {
@@ -16,11 +15,14 @@ public class Main {
     equations[5] = new MathEquation(666.6d);
     {
       for (int i = 6; i < equations.length; i++){
-        equations[i] = new MathEquation(getRandom(6), getRandom(8), 'm');
+        equations[i] = new MathEquation(getRandom(6), getRandom(8), 'a');
       }
     }
     for (MathEquation equation : equations){
       equation.execute();
+      System.out.print("result = ");
+      System.out.println(equation.getResult());
+      equation.execute(1.0d, 2.0d);
       System.out.print("result = ");
       System.out.println(equation.getResult());
     }

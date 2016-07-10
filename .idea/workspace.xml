@@ -25,30 +25,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+            <state relative-caret-position="468">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#944#945#0" expanded="true" />
-                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1029#1030#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MathEquation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/MathEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="393">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
               <folding>
                 <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1229#1230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -518,9 +517,8 @@
         <state relative-caret-position="252">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -540,8 +538,8 @@
           <folding>
             <element signature="e#305#306#0" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -554,27 +552,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/MathEquation.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1029#1030#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/io/github/brianboyko/calcengine/MathEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="393">
+          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
           </folding>
         </state>
       </provider>
