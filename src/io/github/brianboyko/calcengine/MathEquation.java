@@ -12,7 +12,7 @@ public class MathEquation {
 
   public MathEquation(){
   }
-  
+
   public MathEquation(double leftVal){
     this.leftVal = leftVal;
   }
