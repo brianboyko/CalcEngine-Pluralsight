@@ -5,18 +5,26 @@ package io.github.brianboyko.calcengine;
  */
 public class MathEquation {
 
-  private double leftVal;
-  private double rightVal;
-  private char opCode;
+  private double leftVal = 0.0d;
+  private double rightVal = 0.0d;
+  private char opCode = 'a';
   private double result;
 
-  public MathEquation(double leftVal, double rightVal, char opCode){
+  public MathEquation(){
+  }
+  
+  public MathEquation(double leftVal){
     this.leftVal = leftVal;
-    this.rightVal = rightVal;
-    this.opCode = opCode;
   }
 
-
+  public MathEquation(double leftVal, double rightVal){
+    this(leftVal);
+    this.rightVal = rightVal;
+  }
+  public MathEquation(double leftVal, double rightVal, char opCode){
+    this(leftVal, rightVal);
+    this.opCode = opCode;
+  }
 
   public void execute(){
     switch (opCode) {
@@ -36,7 +44,6 @@ public class MathEquation {
         System.out.println("Error - Invalid opcode");
         result = 0.0d;
         break;
-
     }
   }
 
