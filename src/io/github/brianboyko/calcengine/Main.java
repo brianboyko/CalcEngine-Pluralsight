@@ -5,6 +5,28 @@ import static java.lang.Math.random;
 public class Main {
 
   public static void main(String[] args) {
+//    useMathEquation();
+//    useInheritance();
+
+
+    String[] statements = {
+            "divide 100.0 50.0", // -> 100.0 / 50.0 = 2.0
+            "add 25.0 92.0", // -> 25.0 + 92.0 = 117.0
+            "subtract 225.0 17.0", // -> 225.0 - 17.0 = 108.0
+            "multiply 11.0 3.0" // -> 11.0 * 3.0 = 33.0
+    };
+
+    CalculateHelper helper = new CalculateHelper();
+    for(String statement:statements) {
+      helper.process(statement);
+      System.out.println(helper);
+    }
+
+  }
+
+
+
+  static void useMathEquation(){
     MathEquation[] equations = new MathEquation[9];
     System.out.println(getRandom(3));
     equations[0] = new MathEquation(100.0d, 50.0d, 'd');
@@ -26,7 +48,9 @@ public class Main {
       System.out.print("result = ");
       System.out.println(equation.getResult());
     }
+  }
 
+  static void useInheritance(){
     System.out.println();
     System.out.println("Using Inheritance");
     System.out.println();
@@ -42,10 +66,9 @@ public class Main {
       calculator.calculate();
       System.out.println("result = " + calculator.getResult());
     }
-
-
-
   }
+
+
 
   private static double getRandom(int max){
     return random() * max;
